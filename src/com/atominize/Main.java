@@ -1,5 +1,8 @@
 package com.atominize;
 
+import javax.swing.*;
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -110,17 +113,72 @@ public class Main {
 //        System.out.println("Hypotenuse is " + z);
 
         /* Example 16 */
-        int x; // known to all code within main
-        x = 10;
+//        int x; // known to all code within main
+//        x = 10;
+//
+//        if (x == 10) { // start new scope
+//            int y = 20; // known only to this block
+//            // x and y both known here.
+//            System.out.println("x and y: " + x + " " + y);
+//            x = y * 2;
+//        }
+//        // y = 100; // Error! y not known here
+//        // x is still known here.
+//        System.out.println("x is " + x);
 
-        if (x == 10) { // start new scope
-            int y = 20; // known only to this block
-            // x and y both known here.
-            System.out.println("x and y: " + x + " " + y);
-            x = y * 2;
-        }
-        // y = 100; // Error! y not known here
-        // x is still known here.
-        System.out.println("x is " + x);
+        /* Example 18 */
+//        long L;
+//        double D;
+//        L = 100123285L;
+//        D = L; // L = D is impossible
+//        System.out.println("L and D: " + L + " " + D);
+
+        /* Example 19 */
+//        double x, y;
+//        byte b;
+//        int i;
+//        char ch;
+//        x = 10.0;
+//        y = 3.0;
+//        i = (int) (x / y); // cast double to int
+//        System.out.println("Integer outcome of x / y: " + i);
+//        i = 100;
+//        b = (byte) i;
+//        System.out.println("Value of b: " + b);
+//        i = 257;
+//        b = (byte) i;
+//        System.out.println("Value of b: " + b);
+//        b = 88; //ASCII code of X
+//        ch = (char) b;
+//        System.out.println("ch: " + ch);
+
+        /* Example 20 */
+//        byte b;
+//        int i;
+//        b = 10;
+//        i = b*b; // OK, no cast needed
+//        b = 10;
+//        b = (byte) (b*b); // cast needed!! as cannot assign int to byte
+//        System.out.println("i and b: " + i + " " + b);
+
+        /* ScannerInput */
+//        Scanner input = new Scanner(System.in);
+//        System.out.print("Enter first number: ");
+//        int a = input.nextInt();
+//        System.out.print("Enter second number: ");
+//        int b = input.nextInt();
+//        System.out.print("Enter last number: ");
+//        int c = input.nextInt();
+//        System.out.println("Average is " + (a+b+c) / 3);
+
+        /* SwingInput */
+        String temp; // Temporary storage for input.
+        temp = JOptionPane.showInputDialog(null, "First number");
+        int a = Integer.parseInt(temp); // String to int
+        temp = JOptionPane.showInputDialog(null, "Second number");
+        int b = Integer.parseInt(temp);
+        temp = JOptionPane.showInputDialog(null, "Third number");
+        int c = Integer.parseInt(temp);
+        JOptionPane.showMessageDialog(null, "Average is " + (a+b+c) / 3);
     }
 }
