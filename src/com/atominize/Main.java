@@ -1,11 +1,19 @@
 package com.atominize;
 
 import javax.swing.*;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        NoZeroDiv noZeroDiv = new NoZeroDiv();
+//        int val = 3;
+//        int absval = val < 0 ? -val : val;
+//        Guess3 guess3 = new Guess3();
+//        Guess2 guess2 = new Guess2();
+//        Guess guess = new Guess();
+
 //        int var1 = 15;
 //        int var2 = 6;
 //        System.out.println(var1 + var2);
@@ -172,13 +180,13 @@ public class Main {
 //        System.out.println("Average is " + (a+b+c) / 3);
 
         /* SwingInput */
-        String temp; // Temporary storage for input.
-        temp = JOptionPane.showInputDialog(null, "First number");
-        int a = Integer.parseInt(temp); // String to int
-        temp = JOptionPane.showInputDialog(null, "Second number");
-        int b = Integer.parseInt(temp);
-        temp = JOptionPane.showInputDialog(null, "Third number");
-        int c = Integer.parseInt(temp);
-        JOptionPane.showMessageDialog(null, "Average is " + (a+b+c) / 3);
+//        String temp; // Temporary storage for input.
+//        temp = JOptionPane.showInputDialog(null, "First number");
+//        int a = Integer.parseInt(temp); // String to int
+//        temp = JOptionPane.showInputDialog(null, "Second number");
+//        int b = Integer.parseInt(temp);
+//        temp = JOptionPane.showInputDialog(null, "Third number");
+//        int c = Integer.parseInt(temp);
+//        JOptionPane.showMessageDialog(null, "Average is " + (a+b+c) / 3);
     }
 }
