@@ -7,9 +7,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        NoZeroDiv noZeroDiv = new NoZeroDiv();
+        SwitchDemo switchDemo = new SwitchDemo();
+//        NoZeroDiv noZeroDiv = new NoZeroDiv();
 //        int val = 3;
-//        int absval = val < 0 ? -val : val;
+//        int absVal = val < 0 ? -val : val;
 //        Guess3 guess3 = new Guess3();
 //        Guess2 guess2 = new Guess2();
 //        Guess guess = new Guess();
