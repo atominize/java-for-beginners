@@ -7,7 +7,11 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        SwitchDemo switchDemo = new SwitchDemo();
+        Comma comma = new Comma();
+//        DecreaseFor decrease = new DecreaseFor();
+//        SqrRoot sqrRoot = new SqrRoot();
+//        Help help = new Help();
+//        SwitchDemo switchDemo = new SwitchDemo();
 //        NoZeroDiv noZeroDiv = new NoZeroDiv();
 //        int val = 3;
 //        int absVal = val < 0 ? -val : val;
