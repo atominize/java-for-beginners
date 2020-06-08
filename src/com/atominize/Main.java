@@ -7,7 +7,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        ForVar forVar = new ForVar();
+        Guess4 guess4 = new Guess4();
+//        Power power = new Power();
+//        WhileDemo whileDemo = new WhileDemo();
+//        ForVar forVar = new ForVar();
 //        Empty2 empty = new Empty2();
 //        ForTest forTest = new ForTest();
 //        Comma comma = new Comma();
