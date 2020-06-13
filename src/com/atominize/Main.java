@@ -7,7 +7,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        Guess4 guess4 = new Guess4();
+        Break2 break2 = new Break2();
+//        BreakDemo breakDemo = new BreakDemo();
+//        Guess4 guess4 = new Guess4();
 //        Power power = new Power();
 //        WhileDemo whileDemo = new WhileDemo();
 //        ForVar forVar = new ForVar();
