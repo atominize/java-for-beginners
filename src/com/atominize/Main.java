@@ -7,7 +7,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        Break2 break2 = new Break2();
+        Break5 break5 = new Break5();
+//        Break4 break4 = new Break4();
+//        Break3 break3 = new Break3();
+//        Break2 break2 = new Break2();
 //        BreakDemo breakDemo = new BreakDemo();
 //        Guess4 guess4 = new Guess4();
 //        Power power = new Power();
